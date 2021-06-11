@@ -12,8 +12,11 @@
 
     <div id="root">
         <div class="disks">
-            <div class="disk" v-for="album in albums">
-                
+            <div class="disk" v-for="disk in disks">
+                <img :src="disk.poster" alt="poster img">
+                <h3>{{disk.title}}</h3>
+                <p>{{disk.author}}</p>
+                <p>{{disk.year}} - {{disk.genre}}</p>
             </div>
         </div>
     </div>

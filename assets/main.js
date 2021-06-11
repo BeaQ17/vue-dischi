@@ -3,7 +3,7 @@ const root = new Vue({
     data: {
         url: "https://flynn.boolean.careers/exercises/api/array/music",
         disks: null,
-        error: null
+        error: null,
     },
     methods: {},
     mounted(){
